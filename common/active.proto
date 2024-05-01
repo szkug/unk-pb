@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package org.szkug.keeting.common.active;
+
+message ActiveReq {
+  string os = 1; // System
+  string brd = 2; // Device
+  string ver = 3; // App Version
+  optional int64 uid = 4; // User id if logged in
+}
+
+message ActiveResp {}
+
+service ActiveService {
+
+  rpc report(ActiveReq) returns (ActiveResp);
+
+}
