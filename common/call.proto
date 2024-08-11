@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package org.szkug.keeting.common.call;
+package org.szkug.unk.common.call;
 
 message ProtocolServiceCall {
   string service_name = 1;

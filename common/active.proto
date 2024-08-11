@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package org.szkug.keeting.common.active;
+package org.szkug.unk.common.active;
 
 message ActiveReq {
   string os = 1; // System
